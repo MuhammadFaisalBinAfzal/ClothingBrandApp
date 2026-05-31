@@ -17,5 +17,5 @@ A modern, desktop-based Point of Sale (POS) and Inventory Management application
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YourUsername/ClothingBrandApp.git](https://github.com/YourUsername/ClothingBrandApp.git)
+   git clone https://github.com/MuhammadFaisalBinAfzal/ClothingBrandApp.git
    cd ClothingBrandApp
