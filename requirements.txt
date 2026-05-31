@@ -1,0 +1,6 @@
+customtkinter
+pyodbc
+matplotlib
+Pillow
+cairosvg
+tkcalendar
