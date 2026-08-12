@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>👕 Clothing Brand Manager - Ultimate POS & Inventory 📈</h1>
+  <h1>👕 Clothing Brand Manager </h1>
   <p>A modern, robust Point of Sale and Inventory Management desktop application built with Python and CustomTkinter.</p>
 </div>
 
