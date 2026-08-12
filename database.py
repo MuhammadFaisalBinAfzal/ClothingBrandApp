@@ -1,12 +1,16 @@
+import os
 import pyodbc
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class Database:
     def __init__(self):
         # --- CONFIGURATION ---
-        # PASTE YOUR SERVER NAME FROM STEP 1 BELOW inside the quotes
-        SERVER = r'M-FAISAL\SQLEXPRESS'
-        DATABASE = 'BrandManagerDB'
+        # Load SERVER name from .env file, or fallback to default
+        SERVER = os.getenv('SQL_SERVER_NAME', r'M-FAISAL\SQLEXPRESS')
+        DATABASE = os.getenv('SQL_DATABASE_NAME', 'BrandManagerDB')
         
         # This connection string connects Python to SQL Server
         self.conn_string = (
