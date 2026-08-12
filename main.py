@@ -421,7 +421,8 @@ class ProductsPage(ctk.CTkFrame):
             # p = (id, name, category, cost_price, selling_price, stock)
             row_text = ' '.join([str(p[1]), str(p[2])]).lower()
             if not q or q in row_text:
-                self.tree.insert("", "end", values=p)
+                formatted_p = (p[0], p[1], p[2], f"{p[3]:.2f}", f"{p[4]:.2f}", p[5])
+                self.tree.insert("", "end", values=formatted_p)
 
 # --- PAGE 3: SALES ---
 class SalesPage(ctk.CTkFrame):
