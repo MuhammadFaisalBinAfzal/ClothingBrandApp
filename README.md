@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>👕 Clothing Brand Manager </h1>
+  <h1>Clothing Brand Manager </h1>
   <p>A modern, robust Point of Sale and Inventory Management desktop application built with Python and CustomTkinter.</p>
 </div>
 
@@ -11,19 +11,19 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 **Clothing Brand Manager** is designed to streamline the operations of a retail clothing business. It moves away from cumbersome spreadsheets to a sleek, dark-themed UI that manages inventory, processes sales, tracks daily expenses, and generates insightful financial reports with automated charting.
 
-## 🌟 Key Features
-- **📦 Inventory Management:** Easily add, categorize, and update product stocks.
-- **🛒 Point of Sale (POS):** Fast checkout system with real-time stock deductions.
-- **💸 Expense Tracking:** Keep track of business expenses to calculate true net profit.
-- **📊 Business Analytics:** Automatically generate and export financial reports (CSV, PNG, PDF) using Matplotlib.
-- **🛡️ Secure Database:** Robust backend powered by Microsoft SQL Server. Environment-based connection scaling.
+## Key Features
+- **Inventory Management:** Easily add, categorize, and update product stocks.
+- **Point of Sale (POS):** Fast checkout system with real-time stock deductions.
+- **Expense Tracking:** Keep track of business expenses to calculate true net profit.
+- **Business Analytics:** Automatically generate and export financial reports (CSV, PNG, PDF) using Matplotlib.
+- **Secure Database:** Robust backend powered by Microsoft SQL Server. Environment-based connection scaling.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 Here is a look at the application in action:
 
 <img width="1919" height="1011" alt="Screenshot 2026-08-12 113753" src="https://github.com/user-attachments/assets/0efc3307-f217-4ab5-8bdd-66930efb87b6" />
@@ -38,7 +38,7 @@ Here is a look at the application in action:
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **Frontend / GUI**: `CustomTkinter` (Modern styling on top of Tkinter)
 - **Backend / Logic**: Python 3.8+
 - **Database**: Microsoft SQL Server (via `pyodbc`)
@@ -47,7 +47,7 @@ Here is a look at the application in action:
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Prerequisites
 - **Python 3.8+** installed on your system.
@@ -99,8 +99,8 @@ Here is a look at the application in action:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-## 📝 License
+## License
 This project is open-source and available under the [MIT License](LICENSE).
